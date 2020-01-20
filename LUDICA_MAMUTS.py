@@ -1,5 +1,6 @@
 class LudicaMamuts:
     from random import randint
+    #No optimizado
     def __init__(self, ini):
         self.ini=int(ini)
         self.mamuts=[1 for i in range(ini)]
